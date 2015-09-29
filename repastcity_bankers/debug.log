@@ -1,0 +1,264 @@
+FATAL [Thread-7] 2015-08-05 13:52:58,634 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+FATAL [Thread-6] 2015-08-05 13:54:30,698 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1510.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 48
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:209)
+	... 9 more
+FATAL [Thread-6] 2015-09-29 13:25:29,748 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1381.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-7] 2015-09-29 13:27:06,018 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-8] 2015-09-29 13:28:59,378 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-6] 2015-09-29 13:30:57,193 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1381.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.8104419070254, 50.011104494380874, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-7] 2015-09-29 13:32:17,816 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.8104419070254, 50.011104494380874, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-6] 2015-09-29 13:36:38,679 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1381.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.RuntimeException: checkProperty() error, the required property (BuildingsRoadsCoordsCache) is empty
+	at repastcity3.main.ContextManager.getProperty(ContextManager.java:411)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:713)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-6] 2015-09-29 13:37:29,175 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1381.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-7] 2015-09-29 13:38:12,272 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
+FATAL [Thread-8] 2015-09-29 13:39:59,018 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1441.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at repastcity3.agent.DefaultAgent$$FastClassByCGLIB$$eca3a6f8.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: repastcity3.exceptions.RoutingException: Couldn't find an object close to these coordinates:
+	(19.80973329866024, 50.01183748714043, NaN)
+	at repastcity3.environment.Route.findNearestObject(Route.java:1165)
+	at repastcity3.environment.NearestRoadCoordCache.populateCache(Route.java:1731)
+	at repastcity3.environment.NearestRoadCoordCache.<init>(Route.java:1715)
+	at repastcity3.environment.NearestRoadCoordCache.getInstance(Route.java:1897)
+	at repastcity3.environment.Route.getNearestRoadCoord(Route.java:715)
+	at repastcity3.environment.Route.setRoute(Route.java:239)
+	at repastcity3.environment.Route.travel(Route.java:417)
+	at repastcity3.agent.DefaultAgent.step(DefaultAgent.java:247)
+	... 9 more
